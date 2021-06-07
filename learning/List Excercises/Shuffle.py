@@ -1,6 +1,6 @@
 # Write a Python program to shuffle and print a specified list.
-from random import shuffle
+import random
 
 sample = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
-shuffle(sample)
+random.shuffle(sample)
 print(f'The shuffled list is {sample}')
