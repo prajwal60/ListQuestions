@@ -1,7 +1,6 @@
-for i in range(7,50):
-    if i%7==0:
-        print(i)   
 
+list1 = [1,2,3,4,5,6]
+list2 = ['One','Two','Three','Four','Five','Six']
 
-
-
+for i ,j in zip(list1,list2):
+    print(i,j)
