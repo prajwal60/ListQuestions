@@ -4,6 +4,7 @@
 
 for i in range(3):
     guess= int(input("Enter your guess below 9"))
+    
     if 7 == guess:
         print("You are lucky")
         break
