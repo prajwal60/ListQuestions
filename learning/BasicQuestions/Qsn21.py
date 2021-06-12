@@ -5,4 +5,4 @@ if num%2 ==0:
 else:
     value = 'Odd'
 
-print(value)
+print("Entered number is ",value)
