@@ -5,5 +5,4 @@ color2 = ["green", "green", "green", "green"]
 
 print(all(c == 'green' for c in color2))
 
-for i in color2:
-    print(all(i=='green'))
+

@@ -10,7 +10,6 @@ for i in range(2,101):
 
 non_prime.sort()
 prime.sort()
-
 set1 = set(non_prime)
 print(prime)
 print(set1)

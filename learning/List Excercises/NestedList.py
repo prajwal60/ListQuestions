@@ -2,6 +2,7 @@
 colors = [['Red'], ['Green'], ['Black']]
 
 for i in colors:
-    print('\n',i)
+    print(i)
 
+#Alternative Method
 print('\n'.join([str(lst) for lst in colors]))

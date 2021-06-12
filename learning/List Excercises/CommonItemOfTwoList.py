@@ -11,4 +11,4 @@ print(common)
 
 #Alternative method
 
-print(set(list1) |set(list2))
+print(set(list1) & set(list2))
